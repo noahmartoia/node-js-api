@@ -15,7 +15,7 @@ const MONGO_STRING = process.env.MONGO_STRING;
 // Middleware qui permet de parser les donnees issues d'un formulaire
 app.use(express.json());
 
-app.use("/pasta", /*isAuth,*/ pastaRoutes);
+app.use("/pasta", isAuth, pastaRoutes);
 app.use("/auth", authRoutes);
 
 app.use("/error", (req, res) => {
