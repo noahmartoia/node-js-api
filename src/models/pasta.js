@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { Schema, model } = mongoose;
 
-const carSchema = new Schema({
+const pastaSchema = new Schema({
   brand: String,
   model: String,
   //   year: {
@@ -15,4 +15,4 @@ const carSchema = new Schema({
   //   },
 });
 
-export default model("Car", carSchema);
+export default model("pasta", pastaSchema);
