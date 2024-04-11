@@ -39,17 +39,17 @@ http://localhost:3000/pasta/:id pour voire une pasta en particulier (:id dois et
 http://localhost:3000/auth/signup format du signup
 
 {   
-    "email": "martoia.noah@gmail.com",  
-    "password": "eazeeazeaz",  
-    "name": "noah",  
-    "phoneNumber": "0783839990"  
+    "email": "mon.email@gmail.com",  
+    "password": "password",  
+    "name": "name",  
+    "phoneNumber": "09090909"  
 }  
 
 http://localhost:3000/auth/signin format du signin  
 
 {
-    "email": "martoia.noah@gmail.com",  
-    "password": "eazeeazeaz"  
+    "email": "mon.email@gmail.com",  
+    "password": "password"  
 }  
 
 prennez le token et meter le dans Authorization>type>bearer Token
