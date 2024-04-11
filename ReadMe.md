@@ -28,34 +28,35 @@ pour lancer le projet avec nodemon et utiliser postman (https://www.postman.com/
 
 voici les route a utiliser avec post man
 
-# Get
+- Get
 
-http://localhost:3000/pasta pour voire la liste de toute les pasta
-http://localhost:3000/pasta/:id pour voire une pasta en particulier (:id dois etre changer par l'id de la pasta)é
+http://localhost:3000/pasta pour voire la liste de toute les pasta 
 
-# Post
+http://localhost:3000/pasta/:id pour voire une pasta en particulier (:id dois etre changer par l'id de la pasta)
+
+- Post
 
 http://localhost:3000/auth/signup format du signup
 
 {   
-    "email": "martoia.noah@gmail.com",
-    "password": "eazeeazeaz",
-    "name": "noah",
-    "phoneNumber": "0783839990"
-}
+    "email": "martoia.noah@gmail.com",  
+    "password": "eazeeazeaz",  
+    "name": "noah",  
+    "phoneNumber": "0783839990"  
+}  
 
-http://localhost:3000/auth/signin format du signin
+http://localhost:3000/auth/signin format du signin  
 
-{   
-    "email": "martoia.noah@gmail.com",
-    "password": "eazeeazeaz"
-}
+{
+    "email": "martoia.noah@gmail.com",  
+    "password": "eazeeazeaz"  
+}  
 
 prennez le token et meter le dans Authorization>type>bearer Token
 
 http://localhost:3000/pasta ajoute une pasta format
 
 {   
-    "brand": "double penes",
-    "model": "c'est bon"
+    "brand": "double penes",  
+    "model": "c'est bon"  
 }
